@@ -1,0 +1,45 @@
+[project]
+name = "xrl-modal"
+version = "0.1.0"
+description = "An Explainable Multimodal Reinforcement Learning (XRL) framework for intelligent, data-driven transportation and logistics optimization. The project integrates heterogeneous Indian transportation datasets, including road, rail, port, weather, freight, cold-chain, and IoT data, to develop and evaluate multimodal reinforcement learning models with explainable decision-making capabilities. It aims to support adaptive, efficient, and sustainable supply chain and logistics operations through multimodal data integration, model comparison, and explainable AI techniques."
+readme = "README.md"
+authors = [
+    { name = "debarghamitraroy", email = "debarghamitraroy@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium>=1.4.0",
+    "ipykernel>=7.3.0",
+    "ipython>=8.39.0",
+    "ipywidgets>=8.1.9",
+    "jldracula>=0.2.0",
+    "joblib>=1.6.0",
+    "jupyterlab>=4.6.6",
+    "jupyterlab-code-formatter>=3.1.0",
+    "jupyterlab-pygments>=0.3.0",
+    "jupyterlab-wakatime>=0.2.0",
+    "kaggle>=1.7.4.5",
+    "kagglehub>=1.0.2",
+    "matplotlib>=3.10.9",
+    "nbconvert[qtpdf,qtpng,webpdf]>=7.17.2",
+    "notebook>=7.6.5",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pyrosm>=0.21.0",
+    "ruff>=0.17.5",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "stable-baselines3>=2.9.2",
+    "tensorboard>=2.21.0",
+    "torch>=2.14.1",
+    "ty>=0.0.103",
+    "xarray>=2025.6.1",
+]
+
+[project.scripts]
+xrl-modal = "xrl_modal:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
