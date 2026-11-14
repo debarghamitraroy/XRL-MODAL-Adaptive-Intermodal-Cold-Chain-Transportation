@@ -1,0 +1,58 @@
+{
+    "operational": [
+        "Stock_Level",
+        "Daily_Sales",
+        "Demand_Forecast",
+        "RFID_Scan_Count",
+        "Economic_Output",
+        "Inventory_Level",
+        "Waiting_Time",
+        "Asset_Utilization",
+        "Demand_Pressure"
+    ],
+    "environmental": [
+        "Warehouse_Temp",
+        "Warehouse_Humidity",
+        "Temperature",
+        "Humidity",
+        "Temperature_Stress",
+        "Humidity_Stress",
+        "Rainfall",
+        "Mean_Temperature"
+    ],
+    "transport": [
+        "Route_Distance",
+        "Travel_Time",
+        "Fuel_Consumption",
+        "Route_Efficiency",
+        "Freight_Movement",
+        "Major_Port_Traffic"
+    ],
+    "logistics": [
+        "Logistics_Cost",
+        "Logistics_Delay",
+        "Delay_Risk",
+        "Port_Dwell_Time",
+        "Cold_Chain_Project_Count",
+        "Cold_Storage_Total_Capacity_MT",
+        "Cold_Storage_Project_Count",
+        "ICD_Count",
+        "ICD_Operational_Capacity"
+    ],
+    "economic": [
+        "WPI_Composite",
+        "Fruit_Production",
+        "Vegetable_Production"
+    ],
+    "network": [
+        "OSM_available",
+        "OSM_file_size_GB",
+        "Road_Density_Mean",
+        "Road_Density_Max",
+        "Rural_Road_Length_Total",
+        "Urban_Road_Length_Total",
+        "Road_Accidents",
+        "Transport_CO2_Factor_Mean",
+        "Emission_NetCDF_Mean"
+    ]
+}

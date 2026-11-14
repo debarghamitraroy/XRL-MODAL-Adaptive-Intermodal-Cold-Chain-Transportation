@@ -1,0 +1,238 @@
+{
+    "seed": 42,
+    "data_root": "data",
+    "dataset_manifest": {
+        "accidents": [
+            "city_wise_accedents_classified_according_to_type_of_traffic_control_at_junctions_during_2024.csv",
+            "city_wise_accidents_classified_according_to_road_features_during_2024.csv",
+            "city_wise_accidents_classified_according_to_type_of_impacting_vehicles_objects_during_2024.csv",
+            "city_wise_accidents_classified_according_to_type_of_junctions_during_2024.csv",
+            "city_wise_accidents_classified_according_to_type_of_traffic_rule_violations_during_2024.csv",
+            "state_wise_list_of_top_ten_black_spots_from_2016_to_2018.csv",
+            "year_wise_details_of_road_accidents_persons_killed_and_injured_from_1970_to_2024.csv"
+        ],
+        "cold_chain": [
+            "approved-cold-chain-projects.csv",
+            "integrated-cold-chain-availability-component-details.csv",
+            "integrated-cold-chain-availability-cost-report.csv"
+        ],
+        "cold_storage": [
+            "state_ut_wise_details_of_distribution_of_cold_storages_2025.csv"
+        ],
+        "emissions": {
+            "co2_emissions": [
+                "carbon_dioxide_emissions_from_various_transport_modes_in_india.csv"
+            ]
+        },
+        "freight": [
+            "freight_and_passenger_movement_by_road_transport_and_railways_during_1950-51_to_2006-07.csv",
+            "freight_and_passenger_movement_by_road_transport_and_railways_during_1999-2000_to_2011-12.csv"
+        ],
+        "fruits": [
+            "all_india_level_area_and_production_of_fruits.csv",
+            "area_and_production_of_fruits.csv",
+            "state_wise_area_and_production_of_fruits.csv"
+        ],
+        "icd": [
+            "state_wise_total_number_of_dry_ports_inland_container_depot.csv"
+        ],
+        "iot": [
+            "multimodal_iot_supply_chain_dataset.csv",
+            "smart_logistics_dataset.csv"
+        ],
+        "rainfall": [
+            "rainfall_area-wt_India_1901-2015.csv",
+            "rainfall_area-wt_sd_1901-2015.csv",
+            "sub_division_imd_2017.csv"
+        ],
+        "roads": [
+            "state_and_ut-wise_road_density_per_1000_sq._km_for_different_catogories_of_roads.csv",
+            "state_and_ut-wise_road_density_per_1000_sq._km_of_roads_in_rural_and_urban_area_as_on_31_march_2019.csv",
+            "state_and_ut-wise_road_length_per_1000_population_for_different_categories_of_roads.csv",
+            "state_and_ut-wise_total_and_surfaced_length_of_rural_roads_as_on_31_march_2019.csv",
+            "state_and_ut-wise_total_and_surfaced_length_of_urban_roads_as_on_31_march_2019.csv"
+        ],
+        "temperature": [
+            "temp_annual_mean_1901-2021.csv",
+            "temp_annual_min_max_1901-2021.csv"
+        ],
+        "vegetables": [
+            "area_and_production_of_vegetables.csv",
+            "Table_9.6-All_india_Horticulture.csv",
+            "Table_9.6-State_wise_Horticulture.csv"
+        ],
+        "wpi": [
+            "wholesale_price_index.csv"
+        ],
+        "ports": {
+            "dwell_time": [
+                "dgqi_2020.csv",
+                "dgqi_2021.csv",
+                "dgqi_2022.csv"
+            ],
+            "port_traffic": [
+                "chennai.csv",
+                "cochin.csv",
+                "deendayal.csv",
+                "jawahar_lal_nehru.csv",
+                "kamarajar.csv",
+                "kandla.csv",
+                "kolkata_haldia.csv",
+                "mormugao.csv",
+                "mumbai.csv",
+                "new_mangalore.csv",
+                "paradip.csv",
+                "vishakhapatnam.csv",
+                "vo_chidambaranar.csv"
+            ]
+        }
+    },
+    "modality_columns": {
+        "operational": [
+            "Stock_Level",
+            "Daily_Sales",
+            "Demand_Forecast",
+            "RFID_Scan_Count",
+            "Economic_Output",
+            "Inventory_Level",
+            "Waiting_Time",
+            "Asset_Utilization",
+            "Demand_Pressure"
+        ],
+        "environmental": [
+            "Warehouse_Temp",
+            "Warehouse_Humidity",
+            "Temperature",
+            "Humidity",
+            "Temperature_Stress",
+            "Humidity_Stress",
+            "Rainfall",
+            "Mean_Temperature"
+        ],
+        "transport": [
+            "Route_Distance",
+            "Travel_Time",
+            "Fuel_Consumption",
+            "Route_Efficiency",
+            "Freight_Movement",
+            "Major_Port_Traffic"
+        ],
+        "logistics": [
+            "Logistics_Cost",
+            "Logistics_Delay",
+            "Delay_Risk",
+            "Port_Dwell_Time",
+            "Cold_Chain_Project_Count",
+            "Cold_Storage_Total_Capacity_MT",
+            "Cold_Storage_Project_Count",
+            "ICD_Count",
+            "ICD_Operational_Capacity"
+        ],
+        "economic": [
+            "WPI_Composite",
+            "Fruit_Production",
+            "Vegetable_Production"
+        ],
+        "network": [
+            "OSM_available",
+            "OSM_file_size_GB",
+            "Road_Density_Mean",
+            "Road_Density_Max",
+            "Rural_Road_Length_Total",
+            "Urban_Road_Length_Total",
+            "Road_Accidents",
+            "Transport_CO2_Factor_Mean",
+            "Emission_NetCDF_Mean"
+        ]
+    },
+    "reward_parameters": {
+        "Logistics_Cost": {
+            "q05": 955.0485972885635,
+            "q95": 2458.475522274211
+        },
+        "Travel_Time": {
+            "q05": 0.7569616817374385,
+            "q95": 5.721022238499738
+        },
+        "Fuel_Consumption": {
+            "q05": 3.6574107814131644,
+            "q95": 14.403284150447218
+        },
+        "Road_Accidents": {
+            "q05": 480583.0,
+            "q95": 480584.0
+        },
+        "Transport_CO2_Factor_Mean": {
+            "q05": 94.0,
+            "q95": 95.0
+        }
+    },
+    "mode_profiles": {
+        "Road": {
+            "cost": 0.55,
+            "time": 0.45,
+            "emission": 0.65,
+            "risk": 0.45
+        },
+        "Rail": {
+            "cost": 0.4,
+            "time": 0.6,
+            "emission": 0.3,
+            "risk": 0.3
+        },
+        "Sea": {
+            "cost": 0.3,
+            "time": 0.85,
+            "emission": 0.2,
+            "risk": 0.35
+        },
+        "Air": {
+            "cost": 1.0,
+            "time": 0.15,
+            "emission": 1.0,
+            "risk": 0.2
+        },
+        "Inland Waterway": {
+            "cost": 0.35,
+            "time": 0.9,
+            "emission": 0.15,
+            "risk": 0.4
+        }
+    },
+    "algorithms": [
+        "PPO",
+        "SAC",
+        "TD3",
+        "DQN"
+    ],
+    "best_model": "PPO",
+    "best_model_composite_score": 0.922824074335795,
+    "configuration": {
+        "seed": 42,
+        "ppo_timesteps": 50000,
+        "sac_timesteps": 50000,
+        "td3_timesteps": 50000,
+        "dqn_timesteps": 50000,
+        "evaluation_episodes": 30,
+        "episode_length": 30,
+        "learning_rate": 0.0003,
+        "batch_size": 256,
+        "gamma": 0.99,
+        "device": "cuda",
+        "modes": [
+            "Road",
+            "Rail",
+            "Sea",
+            "Air",
+            "Inland Waterway"
+        ],
+        "reward_weights": {
+            "freshness": 1.0,
+            "cost": 0.75,
+            "time": 0.75,
+            "emission": 0.75,
+            "risk": 0.75,
+            "switch": 0.25
+        }
+    }
+}

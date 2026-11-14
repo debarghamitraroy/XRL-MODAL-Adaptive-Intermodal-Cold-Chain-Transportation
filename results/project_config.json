@@ -1,0 +1,28 @@
+{
+    "seed": 42,
+    "ppo_timesteps": 50000,
+    "sac_timesteps": 50000,
+    "td3_timesteps": 50000,
+    "dqn_timesteps": 50000,
+    "evaluation_episodes": 30,
+    "episode_length": 30,
+    "learning_rate": 0.0003,
+    "batch_size": 256,
+    "gamma": 0.99,
+    "device": "cuda",
+    "modes": [
+        "Road",
+        "Rail",
+        "Sea",
+        "Air",
+        "Inland Waterway"
+    ],
+    "reward_weights": {
+        "freshness": 1.0,
+        "cost": 0.75,
+        "time": 0.75,
+        "emission": 0.75,
+        "risk": 0.75,
+        "switch": 0.25
+    }
+}
