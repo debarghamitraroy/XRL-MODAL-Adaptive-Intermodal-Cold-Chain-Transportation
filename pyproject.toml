@@ -20,6 +20,7 @@ dependencies = [
     "numpy>=2.2.6",
     "pandas>=2.3.3",
     "pyrosm>=0.21.0",
+    "rich>=15.0.0",
     "ruff>=0.17.5",
     "scikit-learn>=1.7.2",
     "scipy>=1.15.3",
@@ -27,6 +28,7 @@ dependencies = [
     "stable-baselines3>=2.9.2",
     "tensorboard>=2.21.0",
     "torch>=2.14.1",
+    "tqdm>=4.70.1",
     "ty>=0.0.103",
     "xarray>=2025.6.1",
 ]
