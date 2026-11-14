@@ -140,4 +140,4 @@ The datasets support the integration and analysis of transportation networks, we
 
 ## License
 
-License information will be added as the project evolves.
+[MIT LICENSE](./LICENSE)
