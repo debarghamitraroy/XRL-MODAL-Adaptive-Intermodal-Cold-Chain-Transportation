@@ -28,6 +28,7 @@ dependencies = [
     "stable-baselines3>=2.9.2",
     "tensorboard>=2.21.0",
     "torch>=2.14.1",
+    "torch-tb-profiler>=0.4.3",
     "tqdm>=4.70.1",
     "ty>=0.0.103",
     "xarray>=2025.6.1",
